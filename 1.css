@@ -1,11 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .logo_footer{
     width: 100px;
     height: 100px;
+    top: -10px !important;
 }
-#hv_header{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+header div#hv_header{
+    font-size: 13px !important;
+    font-weight: 900 !important;
 }
 #header{
     background-color: #95afc0;
@@ -13,7 +17,7 @@
 .logo_header{
     Object-fit : cover;
     width: 65px;
-    height: 65px;;
+    height: 65px;
 }
 #header button{
     color: white;
@@ -24,6 +28,33 @@
     height: 300px;
     overflow: auto !important;
     text-align: left !important;
+}
+.nav_top{
+    position: fixed;
+    top:0px;
+    background-color: white !important;
+    z-index: 100;
+    width: 100%;
+    color: white !important;
+}
+.nav_top nav{
+    color: white !important;
+    z-index: 101 !important;
+}
+#aa li{
+    margin: 5px;
+}
+#dangky_top{
+    top: -15px !important;
+}
+.top_click{
+    right: 0px;
+    top: 24px;
+    position: absolute;
+    border: 1px solid red !important;
+    border-radius: 10px;
+    z-index: 120;
+    text-decoration: none;
 }
 @media (max-width: 576px){
     #hero{
@@ -62,6 +93,10 @@
     #contact div.row div.footer_fanpage{
         text-align: center !important;
     }
+    .logo_header{
+        visibility: hidden;
+    }
+
 }
 
 @media (max-width: 768px){	
@@ -101,6 +136,9 @@
     #contact div.row div.footer_fanpage{
         text-align: center !important;
     }	
+    .logo_header{
+        visibility: hidden;
+    }
 }
 @media (max-width: 992px){
 	#hero{
@@ -108,5 +146,16 @@
     }
     #testimonials div.section-title h2{
         font-size: 25px !important;
+    }
+    .logo_header{
+        visibility: hidden;
+    }
+    #navbarSupportedContent{
+        font-size: 10px !important;
+    }
+}
+@media (max-width: 992px){
+    #navbarSupportedContent{
+        font-size: 10px !important;
     }
 }
