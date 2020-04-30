@@ -1,0 +1,112 @@
+.logo_footer{
+    width: 100px;
+    height: 100px;
+}
+#hv_header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#header{
+    background-color: #95afc0;
+}
+.logo_header{
+    Object-fit : cover;
+    width: 65px;
+    height: 65px;;
+}
+#header button{
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+.thongdiep{
+    height: 300px;
+    overflow: auto !important;
+    text-align: left !important;
+}
+@media (max-width: 576px){
+    #hero{
+        text-align: center;
+    }
+	#pricing div.section-title h2{
+        font-size: 10px;
+    }
+    #more-services div.section-title h2{
+        font-size: 20px;
+    }
+    #faq div.section-title h2{
+        font-size: 20px;
+    }
+    #team div.section-title h2{
+        font-size: 20px;
+    }
+    #about div.section-title h2{
+        font-size: 20px;
+    }
+    #counts div.section-title h2{
+        font-size: 20px;
+    }
+    #features div.section-title h2{
+        font-size: 20px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 20px;
+    }
+    #testimonials div.section-title h2.tieude{
+        font-size: 20px !important;
+    }	
+    #contact div.section-title h2{
+        font-size: 20px;
+    }	
+    #contact div.row div.footer_fanpage{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 768px){	
+    #hero{
+        text-align: center;
+    }
+	#pricing div.section-title h2{
+        font-size: 25px;
+    }
+    #more-services div.section-title h2{
+        font-size: 25px;
+    }
+    #faq div.section-title h2{
+        font-size: 25px;
+    }
+    #team div.section-title h2{
+        font-size: 25px;
+    }
+    #about div.section-title h2{
+        font-size: 25px;
+    }
+    #counts div.section-title h2{
+        font-size: 25px;
+    }
+    #features div.section-title h2{
+        font-size: 25px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 25px;
+    }
+    #testimonials div.section-title h2{
+        font-size: 16px !important;
+    }	
+    #contact div.section-title h2{
+        font-size: 25px;
+    }
+    #contact div.row div.footer_fanpage{
+        text-align: center !important;
+    }	
+}
+@media (max-width: 992px){
+	#hero{
+        text-align: center;
+    }
+    #testimonials div.section-title h2{
+        font-size: 25px !important;
+    }
+}
