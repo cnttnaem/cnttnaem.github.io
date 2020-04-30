@@ -49,13 +49,25 @@ header div#hv_header{
 }
 .top_click{
     right: 0px;
-    top: 24px;
+    top: 18px;
     position: absolute;
-    border: 1px solid red !important;
+    border: 1px solid #28a745 !important;
     border-radius: 10px;
     z-index: 120;
+    padding: 10px;
     text-decoration: none;
 }
+.top_click :hover{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-get-started:hover{
+    text-decoration: none;
+}
+
+
+
+
 @media (max-width: 576px){
     #hero{
         text-align: center;
@@ -84,8 +96,8 @@ header div#hv_header{
     #portfolio div.section-title h2{
         font-size: 20px;
     }
-    #testimonials div.section-title h2.tieude{
-        font-size: 20px !important;
+    #testimonials div.section-title h2{
+        font-size: 13px;
     }	
     #contact div.section-title h2{
         font-size: 20px;
@@ -96,7 +108,16 @@ header div#hv_header{
     .logo_header{
         visibility: hidden;
     }
-
+    .testimonial-item{
+        text-align: center !important;
+    }
+    .testimonial-img{
+        text-align: center !important;
+        left: 50px !important;
+    }
+    .testimonial-wrap{
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 768px){	
@@ -128,7 +149,7 @@ header div#hv_header{
         font-size: 25px;
     }
     #testimonials div.section-title h2{
-        font-size: 16px !important;
+        font-size:20px;
     }	
     #contact div.section-title h2{
         font-size: 25px;
@@ -141,11 +162,38 @@ header div#hv_header{
     }
 }
 @media (max-width: 992px){
-	#hero{
-        text-align: center;
+    #pricing div.section-title h2{
+        font-size: 25px;
+    }
+    #more-services div.section-title h2{
+        font-size: 25px;
+    }
+    #faq div.section-title h2{
+        font-size: 25px;
+    }
+    #team div.section-title h2{
+        font-size: 25px;
+    }
+    #about div.section-title h2{
+        font-size: 25px;
+    }
+    #counts div.section-title h2{
+        font-size: 25px;
+    }
+    #features div.section-title h2{
+        font-size: 25px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 25px;
     }
     #testimonials div.section-title h2{
-        font-size: 25px !important;
+        font-size:15px;
+    }	
+    #contact div.section-title h2{
+        font-size: 25px;
+    }
+	#hero{
+        text-align: center;
     }
     .logo_header{
         visibility: hidden;
@@ -154,8 +202,8 @@ header div#hv_header{
         font-size: 10px !important;
     }
 }
-@media (max-width: 992px){
+@media (max-width: 1115px){
     #navbarSupportedContent{
-        font-size: 10px !important;
+        font-size: 15px !important;
     }
 }
