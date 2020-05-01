@@ -65,39 +65,71 @@ header div#hv_header{
     text-decoration: none;
 }
 
-@media (max-width: 576px){
-    #hero{
-        text-align: center;
+@media (max-width: 499px){
+    #about div.section-title h2{
+        font-size: 18px !important;
     }
 	#pricing div.section-title h2{
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
     #more-services div.section-title h2{
-        font-size: 13px !important;
+        font-size: 16px !important;
     }
     #faq div.section-title h2{
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
     #team div.section-title h2{
-        font-size: 13px !important;
-    }
-    #about div.section-title h2{
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
     #counts div.section-title h2{
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
     #features div.section-title h2{
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
     #portfolio div.section-title h2{
-        font-size: 13px !important;
+        font-size: 16px !important;
     }
     #testimonials div.section-title h2{
         font-size: 10px !important;
     }	
     #contact div.section-title h2{
-        font-size: 13px !important;
+        font-size: 18px !important;
+    }	
+}
+@media (max-width: 576px){
+    #hero{
+        text-align: center;
+    }
+    #about div.section-title h2{
+        font-size: 20px;
+    }
+	#pricing div.section-title h2{
+        font-size: 20px;
+    }
+    #more-services div.section-title h2{
+        font-size: 20px;
+    }
+    #faq div.section-title h2{
+        font-size: 20px ;
+    }
+    #team div.section-title h2{
+        font-size: 20px ;
+    }
+    #counts div.section-title h2{
+        font-size: 20px;
+    }
+    #features div.section-title h2{
+        font-size: 20px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 20px;
+    }
+    #testimonials div.section-title h2{
+        font-size: 15px ;
+    }	
+    #contact div.section-title h2{
+        font-size: 20px ;
     }	
     #contact div.row div.footer_fanpage{
         text-align: center !important;
@@ -111,6 +143,12 @@ header div#hv_header{
     #hero{
         text-align: center;
     }
+    #about div.section-title h2{
+        font-size: 25px;
+    }
+    #counts div.section-title h2{
+        font-size: 25px;
+    }
 	#pricing div.section-title h2{
         font-size: 25px;
     }
@@ -123,12 +161,6 @@ header div#hv_header{
     #team div.section-title h2{
         font-size: 25px;
     }
-    #about div.section-title h2{
-        font-size: 25px;
-    }
-    #counts div.section-title h2{
-        font-size: 25px;
-    }
     #features div.section-title h2{
         font-size: 25px;
     }
@@ -136,7 +168,7 @@ header div#hv_header{
         font-size: 25px;
     }
     #testimonials div.section-title h2{
-        font-size:20px;
+        font-size: 25px;
     }	
     #contact div.section-title h2{
         font-size: 25px;
@@ -189,8 +221,8 @@ header div#hv_header{
         font-size: 10px !important;
     }
 }
-@media (max-width: 1115px){
-    #navbarSupportedContent{
-        font-size: 15px !important;
+@media (min-width: 993px){
+    .tieude1{
+        font-size: 45px !important;
     }
 }
