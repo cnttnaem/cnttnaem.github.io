@@ -29,6 +29,9 @@ header div#hv_header{
     overflow: auto !important;
     text-align: left !important;
 }
+#thongdiep{
+    text-align: justify !important;
+}
 .nav_top{
     position: fixed;
     top:0px;
