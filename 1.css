@@ -104,15 +104,6 @@ header div#hv_header{
     .logo_header{
         visibility: hidden;
     }
-
-    .testimonial-wrap{
-        position: relative;
-    }
-    .testimonial-item div.phanhoi{
-        position: relative !important;
-        left:50% !important;
-        transform: translate(50%, 50%) !important;
-    }
 }
 
 @media (max-width: 768px){	
