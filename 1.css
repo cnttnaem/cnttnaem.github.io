@@ -70,7 +70,7 @@ header div#hv_header{
         text-align: center;
     }
 	#pricing div.section-title h2{
-        font-size: 10px;
+        font-size: 13px !important;
     }
     #more-services div.section-title h2{
         font-size: 13px !important;
