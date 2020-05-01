@@ -65,9 +65,6 @@ header div#hv_header{
     text-decoration: none;
 }
 
-
-
-
 @media (max-width: 576px){
     #hero{
         text-align: center;
@@ -76,47 +73,37 @@ header div#hv_header{
         font-size: 10px;
     }
     #more-services div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #faq div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #team div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #about div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #counts div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #features div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #portfolio div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }
     #testimonials div.section-title h2{
-        font-size: 13px;
+        font-size: 10px !important;
     }	
     #contact div.section-title h2{
-        font-size: 20px;
+        font-size: 13px !important;
     }	
     #contact div.row div.footer_fanpage{
         text-align: center !important;
     }
     .logo_header{
         visibility: hidden;
-    }
-    .testimonial-item{
-        text-align: center !important;
-    }
-    .testimonial-img{
-        text-align: center !important;
-        left: 50px !important;
-    }
-    .testimonial-wrap{
-        text-align: center !important;
     }
 }
 
