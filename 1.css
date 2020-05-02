@@ -10,7 +10,19 @@
 .tieudegioithieu{
     font-family: 'Montserrat', sans-serif;
 }
-
+.icon-box{
+    color: red !important;
+}
+#carasel_top div#carouselExampleIndicators div.carousel-inner{
+    text-align: center !important;
+    display: block;
+}
+#carasel_top{
+    border: 1px solid red !important;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
 .logo_footer{
     width: 100px;
     height: 100px;

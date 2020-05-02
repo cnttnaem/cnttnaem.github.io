@@ -550,17 +550,16 @@ section {
 
 .clients img {
   width: 50%;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
+  -webkit-filter: grayscale(50);
+  filter: grayscale(50); 
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 10px 0;
 }
 
 .clients img:hover {
   -webkit-filter: none;
   filter: none;
-  transform: scale(1.1);
+  transform: scale(2.1) !important;
 }
 
 @media (max-width: 768px) {
@@ -849,7 +848,10 @@ section {
 
 .more-services .card:hover .card-body {
   background: #3498db;
+  font-size: 18px;
 }
+
+
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
   color: #fff;
