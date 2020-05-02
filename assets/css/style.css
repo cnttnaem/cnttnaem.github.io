@@ -559,7 +559,7 @@ section {
 .clients img:hover {
   -webkit-filter: none;
   filter: none;
-  transform: scale(2.1) !important;
+  transform: scale(1.2) !important;
 }
 
 @media (max-width: 768px) {
