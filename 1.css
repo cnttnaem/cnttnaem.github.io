@@ -17,12 +17,7 @@
     text-align: center !important;
     display: block;
 }
-#carasel_top{
-    border: 1px solid red !important;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-}
+
 .logo_footer{
     width: 100px;
     height: 100px;
@@ -70,7 +65,7 @@ header div#hv_header{
     font-size: 15px;
 }
 #aa li{
-    margin: 5px;
+    margin: 2px;
 }
 #dangky_top{
     top: -15px !important;
