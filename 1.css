@@ -10,9 +10,7 @@
 .tieudegioithieu{
     font-family: 'Montserrat', sans-serif;
 }
-.icon-box{
-    color: red !important;
-}
+
 #carasel_top div#carouselExampleIndicators div.carousel-inner{
     text-align: center !important;
     display: block;
@@ -34,6 +32,7 @@ header div#hv_header{
     Object-fit : cover;
     width: 65px;
     height: 65px;
+    left: 0 !important;
 }
 #header button{
     color: white;
@@ -60,13 +59,16 @@ header div#hv_header{
     color: white !important;
     z-index: 101 !important;
 }
+#btn_top li{
+    font-size: 10px !important;
+}
 #btn_top :hover{
     color: white !important;
     font-size: 15px;
 }
 #aa li{
     margin: 1px;
-    font-size: 13px !important;
+    font-size: 8px !important;
 }
 #dangky_top{
     top: -15px !important;
@@ -83,7 +85,7 @@ header div#hv_header{
 }
 .top_click :hover{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 .btn-get-started:hover{
     text-decoration: none;
