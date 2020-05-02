@@ -94,6 +94,11 @@ header div#hv_header{
     text-align: justify;
 }
 
+@media (min-width: 414px) and (max-width: 736px){
+    #font_ttts{
+        font-size: 18px !important;
+    }
+}
 
 @media (max-width: 480px){
     .tieude1{
