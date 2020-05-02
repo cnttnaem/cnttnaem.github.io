@@ -93,6 +93,15 @@ header div#hv_header{
 .canchinh_dnb{
     text-align: justify;
 }
+.icon-box{
+    cursor: pointer;
+}
+#pointer_ctdt{
+    cursor: pointer;
+}
+#clients{
+    cursor: pointer;
+}
 
 @media (min-width: 414px) and (max-width: 736px){
     #font_ttts{
