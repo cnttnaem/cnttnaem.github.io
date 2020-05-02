@@ -65,7 +65,8 @@ header div#hv_header{
     font-size: 15px;
 }
 #aa li{
-    margin: 2px;
+    margin: 1px;
+    font-size: 13px !important;
 }
 #dangky_top{
     top: -15px !important;
