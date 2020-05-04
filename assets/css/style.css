@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&display=swap');
 a {
   color: #3498db;
 }
